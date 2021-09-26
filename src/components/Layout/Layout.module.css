@@ -1,0 +1,38 @@
+.layout {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 32px 0;
+}
+/*  Navigation */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Links */
+.navigation ul {
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation ul li:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.new-image-link {
+  color: #2fd159 !important;
+  font-weight: 500;
+}

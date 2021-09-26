@@ -1,0 +1,25 @@
+.logo a {
+  color: #000;
+
+  display: flex;
+  align-items: flex-end;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.logo a p {
+  text-decoration: none;
+}
+
+.text {
+}
+
+.circle {
+  height: 4px;
+  width: 4px;
+  background-color: #2fd159;
+  border-radius: 50%;
+  margin-bottom: 6px;
+  margin-left: 2px;
+}

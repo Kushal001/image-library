@@ -1,4 +1,5 @@
 import "./App.css";
+import { Route, Switch } from "react-router";
 
 // components
 import Layout from "./components/Layout/Layout";
@@ -6,7 +7,13 @@ import Layout from "./components/Layout/Layout";
 function App() {
   return (
     <div className="App">
-      <Layout>Main app</Layout>
+      <Layout>
+        <Switch>
+          <Route path="/" exact>
+            Main app
+          </Route>
+        </Switch>
+      </Layout>
     </div>
   );
 }
